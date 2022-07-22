@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	border: 0;
+    padding: 0;
+}
+body {
+	background-color: white;
+}
+#contenedor {
+	width: 95%;
+	margin: 30px auto;
+}
+
+.logo img{
+    width: 60px;
+
+}
+.logo h1{
+   
+    color: rgb(235, 70, 70);
+    position: absolute;
+    top: 45px;
+    left: 100px;
+}
+.logo a{
+    color: rgb(68, 68, 199);
+    font-size: 20px;
+    position: relative;
+    left: 1060px;
+    bottom: 15px;
+}
+.banner{
+    height: 410px;
+}
+.banner img{
+    width: 100%;
+    height: 410px;
+}
+.banner a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(235, 70, 70);
+    padding: 10px;
+    font-size: 20px;
+    position:relative;
+    bottom: 250px;
+    left: 550px;
+    border-radius: 20px;
+    
+}
+.banner h3{
+    position: relative;
+    bottom: 210px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    
+ 
+}
+nav {
+	background-color: rgb(235, 70, 70);
+}
+nav a {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+    margin-left: 245px;
+   
+    
+}
+h3{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 25px;
+    
+
+}
+.row  figure{
+    
+	width: 10%;
+	margin: 10px auto;
+	display: inline-block;
+    margin-left: 220px; 
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.row img{
+    width: 80px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.row figcaption{
+    text-align:center;
+}
+
+main h4{
+    color: rgb(78, 75, 75);
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+
+
+
