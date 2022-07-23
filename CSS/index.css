@@ -1,0 +1,279 @@
+/* Generales */
+body{
+    background-image: url("../IMAGENES/fondo.jpg"); 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    margin: 20px;
+    font-size: 1.7rem;
+}
+
+.logo img{
+    width: 5rem;
+    margin: 10px;
+}
+
+.registrate{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.registrate a{
+    font-size: 1.7rem;
+    margin: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu{
+    margin: 15px;
+    padding: 15px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #F5784F;
+}
+
+.header-menu:focus{
+    color: red;
+}
+.header-menu div a{
+    text-decoration: none;
+    color: black;
+}
+
+footer img{
+    width:2.5rem;
+}
+
+
+
+/* INICIO */
+.razones{
+    border: none;
+    display: flex;
+    align-items: center;
+    background-image: url("../IMAGENES/fondo.jpg"); 
+}
+.razones img{
+    width: 6rem;
+    height: 6rem;
+}
+.razones p{
+    text-align: center;
+}
+.platos{
+    border: none;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    background-image: url("../IMAGENES/fondo.jpg"); 
+}
+.platos img{
+    width: 12rem;
+    height: 12rem
+}
+.platos p{
+    text-align: center;
+}
+.titulo-razones{
+    font-size: 2rem;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.titulo-platos{
+    font-size: 2rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-top: 15px;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.texto-platos{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+/* QUIENES SOMOS */
+
+.titulo-somos{
+    font-size: 2rem;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+.texto-somos{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0 5rem;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.beneficios{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.beneficios h2{
+    font-size: 2rem;
+    margin:15px 0;
+    text-align: center;
+}
+.beneficios ul{
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+}
+.beneficios ul li{
+    font-size: 1.1rem;
+    margin: 15px;
+}
+
+.indicaciones{
+    padding-top: 15px;
+    margin-top: 15px;
+}
+.indicaciones ul{
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+}
+.indicaciones h2{
+    font-size: 2rem;
+    margin: 15px 0;
+    text-align: center;
+}
+.indicaciones ul li{
+    font-size: 1.1rem;
+    margin: 15px;
+    
+}
+
+/* TESTIMONIOS */
+.textimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textimonios .card img{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.textimonios .card{
+    margin: 1rem 0;
+}
+
+.textimonios .card p{
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* PLANES */
+.planes-titulo{
+    font-size: 2rem;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+    padding-bottom: 2rem;
+}
+
+.planes .card-title{
+    margin: 20px 0px;
+}
+
+.planes .card-subtitle{
+    margin: 30px 0px;
+    padding-bottom: 20px;
+}
+.planes .centrar-boton{
+    display: flex;    
+    justify-content: center;
+}
+.planes .centrar-boton a{
+    width: 60%;
+    margin-top: 20%;
+}
+.planes .centrar-boton span a{
+    text-decoration: none;
+}
+.planes h5,h6,p,a{
+    text-align: center;
+}
+.footer-planes{
+    margin-top: 4rem;
+}
+
+/* REGISTRATE */
+.registrate-titulo{
+    padding: 10px 0;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.registrate-pagar input{
+    margin-top: 5px ;
+    margin-bottom: 5px;
+    
+}
+
+.registrate-pagar label{
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+
+.registrate-pagar .form-check{
+    margin-left: 2rem;
+}
+
+.registrate-pagar .dias label{
+    text-align: center;
+}
+
+.registrate-texto{
+    margin: 2rem 4rem;
+}
+
+.registrate-boton{
+    display: flex;
+    justify-content: center;
+}
+.registrate-boton a{
+    width: 35%;
+    margin-bottom: 4rem;
+}
+
+.pagar{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.pagar h2{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 2rem;
+}
+.pagar label{
+    margin: 10px 0px;
+}
+
+.pagar .form-check{
+    margin-left: 2rem;
+}
+.pagar p{
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
